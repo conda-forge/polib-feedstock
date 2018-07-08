@@ -23,14 +23,15 @@ Summary: A library to manipulate gettext files (po and mo files).
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/polib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/polib-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/polib-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/polib-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/polib-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/polib-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/polib-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/polib-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/polib/badges/version.svg)](https://anaconda.org/conda-forge/polib)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/polib/badges/downloads.svg)](https://anaconda.org/conda-forge/polib)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-polib-green.svg)](https://anaconda.org/conda-forge/polib) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/polib.svg)](https://anaconda.org/conda-forge/polib) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/polib.svg)](https://anaconda.org/conda-forge/polib) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/polib.svg)](https://anaconda.org/conda-forge/polib) |
 
 Installing polib
 ================
