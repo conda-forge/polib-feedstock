@@ -13,20 +13,23 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
     - python
     - setuptools
-
   run:
     - python
 
 test:
   imports:
     - polib
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: http://bitbucket.org/izi/polib/
